@@ -1,0 +1,19 @@
+body {
+	
+	background-color: white;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+li {
+	padding: 20px;
+	display: inline;
+}
+
+p {
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: justify;
+}
