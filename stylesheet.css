@@ -1,13 +1,20 @@
 h1 {
 	text-align: center;
+	background-color: #A9F5D0; 
 }
 
 body {
 	
-	background-color: white;
+	background-image: url('');
+	margin: 20px;
 }
-
+head{
+	padding: 10px;
+	margin: 20px;
+}
 ul {
+	color: black;
+	background-color: #00FF80;
 	margin: 0;
 	padding-left: 40px;
 	text-align: center;
@@ -16,6 +23,7 @@ ul {
 
 .about {
 	padding: 30px;
+	background-image: url('whole_foods.jpg');
 }
 
 p {
@@ -38,4 +46,8 @@ p {
 .testimonials{
 	padding: 10px;
 
+}
+.name{
+	color: blue;
+	font: 18;
 }
