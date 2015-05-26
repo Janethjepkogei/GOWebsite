@@ -3,13 +3,110 @@
 <head>
 	<meta charset = "utf-8"/>
 	<link rel="stylesheet" href="stylesheet.css">
-	<link href="http://s3.amazonaws.com/codeacademy-
-	content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+
+
+  <!-- SlidesJS Optional: If you'd like to use this design -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(http://www.slidesjs.com//img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+ <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 800,
+        height: 300
+      });
+    });
+  </script>
+
 </head>
 
 <body>
-	<div class="pictures">
-		<a href="http://imgur.com/jmThh1S"><img src="http://i.imgur.com/jmThh1S.jpg" title="source: imgur.com" /></a>
+
+	<h1>Tufts Global Orientation</h1>
+		<ul class="nav nav-tabs">
+			<li class="col-md-2"><a href="">Info</a></li>
+			<li class="col-md-2"><a href="">Staff</a></li>
+			<li class="col-md-2"><a href="testimonials.html">Inside Look</a></li>
+			<li class="col-md-2"><a href="snapshots.html">Snapshots</a></li>
+			<li class="col-md-2"><a href="Contact.html"> Contact Us</a></li>
+		</ul>
+	<div id="slides">
+		<img src="http://i.imgur.com/jmThh1S.jpg">
+		
 	</div>
 </body>
 </html>
