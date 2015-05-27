@@ -1,20 +1,17 @@
 h1 {
 	text-align: center;
-	background-color: #A9F5D0; 
 }
 
 body {
-	
-	background-image: url('');
 	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 head{
 	padding: 10px;
 	margin: 20px;
 }
 ul {
-	color: black;
-	background-color: #00FF80;
 	margin: 0;
 	padding-left: 40px;
 	text-align: center;
@@ -32,11 +29,15 @@ ul {
 	padding: 30px;
 	background-image: url('whole_foods.jpg');
 }
+
 .intro_Video{
 	padding: 10px; 
 	margin: 0px; 
 }
 
+.staff {
+	padding: 30px;
+}
 p {
 	padding: 10px;
 
