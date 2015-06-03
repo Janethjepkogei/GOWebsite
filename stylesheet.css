@@ -23,6 +23,11 @@ head{
 	z-index: 11;
 }
 
+.carousel {
+
+margin-top: 200px;
+}
+
 .container {
 	position: relative;
 	margin-top: 170px;
