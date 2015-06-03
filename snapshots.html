@@ -3,9 +3,8 @@
 <head>
 	<title>GO Snapshots</title>
 	<meta charset = "utf-8"/>
-	<link rel="stylesheet" href="stylesheet.css">
 	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="stylesheet.css">
 <style>
 .slideshow {
 	padding: 40px;
@@ -17,7 +16,8 @@
  	<link href="slides.css" rel="stylesheet">
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="jquery.slides.min.js"></script>
-
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font-awesome.min.css">
   <script>
     $(function(){
       $("#slides").slidesjs({
@@ -31,6 +31,7 @@
 
 <body>
 
+	<div class="toolbar">
 	<h1>Tufts Global Orientation</h1>
 		<ul class="nav nav-tabs">
 			<li class="col-md-2"><a href="index.html">Home</a></li>
@@ -39,12 +40,20 @@
 			<li class="col-md-2"><a href="testimonials.html">Inside Look</a></li>
 			<li class="col-md-2"><a href="snapshots.html">Snapshots</a></li>
 			<li class="col-md-2"><a href="contact.html"> Contact Us</a></li>
-		</ul>	
+		</ul>
+	</div>	
+
+<div class="container">	
 <div class="slideshow">
 	<div id="slides">
 		<img src="http://i.imgur.com/jmThh1S.jpg">
-		
+		<img src="pics1.jpg">
+
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
 	</div>
+</div>
+
 </div>
 </body>
 </html>
