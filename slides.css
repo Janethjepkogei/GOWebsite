@@ -61,3 +61,17 @@
     .navbar {
       overflow: hidden
     }
+
+.slidesjs-slide {
+	position: absolute !important;
+	margin-left: 20% !important;
+	margin-right: 20% !important;
+	width: 60% !important;
+	height: 70% !important;
+}
+
+.slidesjs-container {
+	height: 400px !important;
+	width: 100% !important;
+}
+
